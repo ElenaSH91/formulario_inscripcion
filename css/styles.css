@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+html, body {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+  color: #444;
+}
+
+h2 {
+  font-weight: 400;
+  color: #146e83;
+}
+
+h3 {
+  margin: 25px 0px 0px 0px;
+  padding: 0;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  font-family: 'Mulish', sans-serif;
+  color: #146e83;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0px auto;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.formulario {
+  width: 60%;
+  margin: 20px auto;
+  padding: 0;
+}
+
+header {
+  margin: 0 auto;
+  padding: 0;
+}
+
+label {
+  font-weight: 400;
+}
+
+input:focus {
+    outline-color: #146e83;
+    outline-width: thin;
+}
+
+.box1{
+  margin: 20px auto;
+  padding: 0px 0px 0px 10px;
+}
+
+.box1 input {
+  width: 90%;
+  border-radius: 2px;
+  border: 1px solid #707070;
+  padding: 10px;
+  margin-top: 5px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+}
+
+.box1 select {
+  width: 90%;
+  border-radius: 2px;
+  border: 1px solid #707070;
+  padding: 10px;
+  margin-top: 5px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+}
+
+.box2 {
+  margin: 20px auto;
+  padding: 0px 0px 0px 10px;
+}
+
+.box2 input {
+  padding: 8px;
+  margin-top: 5px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  border-radius: 2px;
+  border: 1px solid #707070;
+}
+
+.box3 {
+  margin: 20px auto;
+  padding: 0px 0px 0px 10px;
+}
+
+.box3 input {
+  padding: 10px;
+  margin: 10px 0px 0px 20px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+}
+
+.box4 {
+  margin: 20px auto;
+  padding: 0px 0px 0px 10px;
+}
+
+.box4 input {
+  padding: 10px;
+  margin: 10px 0px 0px 20px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+}
+
+.contenedor {
+  margin: auto;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #707070;
+}
+
+button {
+  font-family: 'Mulish', sans-serif;
+  font-size: 12pt;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: #146e83;
+  border-radius: 2px;
+  border: 1px solid #707070;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  color: #146e83;
+}
+
+footer {
+  margin: 0 auto;
+  padding: 20px 0px 20px 0px;
+}
+footer a:visited{
+  color: #99998f;
+}

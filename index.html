@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <title>Formulario | ComunidadIT</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Formulario de Inscripción ComunidadIT">
+    <meta name="author" content="ElenaSH">
+    <meta name="keywords" content="inscripción, comit, comunidadIT, it, curso de informática, desarrolladores, programación, argentina">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="all"/>
+    <link rel="icon" type="image/png" href="images/icon.png"/>
+  </head>
+  
+  <body>
+    <!-- Banner y Título -->
+    <header class="centrado">
+      <img src="images/banner.png" alt="ComIt" width="100%">
+    </header>
+    <h2 class="centrado">Bienvenido al Formulario de Inscripción de ComunidadIT. </h2>
+    <h3 class="centrado">Completa el formulario con todos tus datos para que puedas inscribirte al curso.</h3>
+
+    <!-- Inicia el Formulario  -->
+    <section>
+      <div class="formulario">
+        <form class="" action="index.html" method="post">
+          <ul>
+
+            <!-- Información Personal  -->
+            <li>
+              <br>
+              <h2>Información Personal</h2>
+              <ul>
+                <li class="box1">
+                  <label for="nombres">Nombres: </label><br>
+                  <input type="text" name="nombres" id="nombres" placeholder="Escriba aquí sus nombres" autocomplete="off" required>
+                </li>
+                <li class="box1">
+                  <label for="apellidos">Apellidos: </label><br>
+                  <input type="text" name="apellidos" id="apellidos" placeholder="Escriba aquí sus apellidos" autocomplete="off" required>
+                </li>
+                <li class="box2">
+                  <label for="nacimiento">Fecha de Nacimiento: </label><br>
+                  <input type="date" name="nacimiento" id="nacimiento" required>
+                </li>
+                <li class="box3">
+                  <label for="gender">Género</label><br>
+                  <input type="radio" name="genero" id="masculino" required> Masculino
+                  <input type="radio" name="genero" id="femenino"> Femenino
+                  <input type="radio" name="genero" id="no_decir"> Prefiero no decirlo
+                </li>
+              </ul>
+            </li>
+
+            <!-- Información de Contacto  -->
+            <li>
+              <br>
+              <h2>Información de Contacto</h2>
+              <ul>
+                <li class="box1">
+                  <label for="telefono">Teléfono: </label><br>
+                  <input type="tel" name="telefono" id="telefono" placeholder="Escriba aquí su teléfono" autocomplete="off" required>
+                </li>
+                <li class="box1">
+                  <label for="mail">Correo electrónico: </label><br>
+                  <input type="email" name="mail" id="mail" placeholder="Escriba aquí su correo electrónico" autocomplete="off" required>
+                </li>
+                <li class="box1">
+                  <label for="direccion">Dirección: </label><br>
+                  <input type="text" name="direccion" id="direccion" placeholder="Escriba aquí su dirección" autocomplete="off" required>
+                </li>
+                <li class="box1">
+                  <label for="ciudad">Ciudad: </label><br>
+                  <input type="text" name="ciudad" id="ciudad" placeholder="Escriba aquí su ciudad" autocomplete="off" required>
+                </li>
+                <li class="box1">
+                  <label for="provincia">Provincia: </label><br>
+                  <input type="text" name="provincia" id="provincia" placeholder="Escriba aquí su provincia" autocomplete="off" required>
+                </li>
+                <li class="box2">
+                  <label for="pais">País: </label><br>
+                  <input type="text" name="pais" id="pais" placeholder="Escriba aquí su país" autocomplete="off" required>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Información Académica  -->
+            <li>
+              <br>
+              <h2>Información Académica</h2>
+              <ul>
+                <li class="box3">
+                  <label for="titulo">¿Posees titulo Universitario o Terciario?</label><br>
+                  <input type="radio" name="titulo" id="titulo_si" required> Sí
+                  <input type="radio" name="titulo" id="titulo_no"> No
+                </li>
+                <ul class="contenedor">
+                  <li class="box1">
+                    <label for="afirmativo">Si "Sí", completa los campos a continuación: </label><br><br>
+                    <label for="afirmativo">Universidad/Instituto: </label><br>
+                    <input type="text" name="uniter" id="uniter" placeholder="Escriba aquí el nombre de su universidad/instituto" autocomplete="off">
+                  </li>
+                  <li class="box1">
+                    <label for="afirmativo">Título: </label><br>
+                    <input type="text" name="titulo" id="titulo" placeholder="Escriba aquí su título" autocomplete="off">
+                  </li>
+                  <li class="box2">
+                    <label for="nacimiento">Fecha de Egreso: </label><br>
+                    <input type="date" name="egreso" id="fecha_egreso" >
+                  </li>
+                </ul>
+                <li class="box3">
+                  <label for="estudia">¿Estás estudiando actualmente?</label><br>
+                  <input type="radio" name="estudia" id="estudia_si" required> Sí
+                  <input type="radio" name="estudia" id="estudia_no"> No
+                </li>
+                <li class="box3">
+                  <label for="conocimiento">¿Posees conocimientos en programación?</label><br>
+                  <input type="radio" name="conocimiento" id="conocimiento_si" required> Sí
+                  <input type="radio" name="conocimiento" id="conocimiento_no"> No
+                </li>
+                <li class="box3">
+                  <label for="ingles">¿Cuál es tu nivel de inglés?</label><br>
+                  <input type="radio" name="ingles" id="ingles_nada" required> No tengo inglés
+                  <input type="radio" name="ingles" id="ingles_basico"> Bajo
+                  <input type="radio" name="ingles" id="ingles_intermedio"> Intermedio
+                  <input type="radio" name="ingles" id="ingles_avanzado"> Avanzado
+                </li>
+              </ul>
+            </li>
+
+            <!-- Información Laboral  -->
+            <li>
+              <br>
+              <h2>Información Laboral</h2>
+              <ul>
+                <li class="box3">
+                  <label for="trabajo">¿Te encuentras trabajando actualmente?</label><br>
+                  <input type="radio" name="trabajo" id="trabajo_si" required> Sí
+                  <input type="radio" name="trabajo" id="trabajo_no"> No
+                </li>
+                <li class="box1">
+                  <label for="empresa">Si estás trabajando, ¿en qué empresa?</label><br>
+                  <input type="text" name="empresa" id="empresa" placeholder="Escriba aquí el nombre de la empresa" autocomplete="off">
+                </li>
+                <li class="box1">
+                  <label for="cargo">¿Cuál es tu cargo dentro de la empresa?</label><br>
+                  <input type="text" name="cargo" id="cargo" placeholder="Escriba aquí su cargo" autocomplete="off">
+                </li>
+              </ul>
+            </li>
+
+            <!-- Información del Curso  -->
+            <li>
+              <br>
+              <h2>Información del Curso</h2>
+              <ul>
+                <li class="box4">
+                  <label for="dias">¿Qué días disponibles tienes para cursar?</label><br>
+                  <input type="checkbox" name="lunes" id="lunes"> Lunes
+                  <input type="checkbox" name="martes" id="martes"> Martes
+                  <input type="checkbox" name="miercoles" id="miercoles"> Miércoles
+                  <input type="checkbox" name="jueves" id="jueves"> Jueves
+                  <input type="checkbox" name="viernes" id="viernes"> Viernes
+                  <input type="checkbox" name="sabado" id="sabado"> Sábado
+                </li>
+                <li class="box1">
+                  <label for="turno">Selecciona tu preferencia horaria</label><br>
+                  <select class="" name="turno">
+                    <option style="display:none">
+                    <option value="1">Turno Mañana (9hs a 12hs)</option>
+                    <option value="2">Turno Tarde (13hs a 17hs)</option>
+                    <option value="3">Turno Noche (18hs a 21hs)</option>
+                    <option value="4">No tengo preferencia</option>
+                  </select>
+                </li>
+                <li class="box3">
+                  <label for="computadora">¿Dispones de una computadora o notebook/laptop?</label><br>
+                  <input type="radio" name="computadora" id="computadora_si" required> Sí
+                  <input type="radio" name="computadora" id="computadora_no"> No
+                </li>
+                <li class="box3">
+                  <label for="cam">¿Dispones de una cámara?</label><br>
+                  <input type="radio" name="cam" id="cam_si" required> Sí
+                  <input type="radio" name="cam" id="cam_no"> No
+                </li>
+                <li class="box3">
+                  <label for="mic">¿Dispones de un micrófono?</label><br>
+                  <input type="radio" name="mic" id="mic_si" required> Sí
+                  <input type="radio" name="mic" id="mic_no"> No
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <br>
+
+          <!-- Botón Enviar y Limpiar  -->
+          <div class="centrado">
+            <button type="submit" name="button">Enviar Solicitud</button>
+            <button type="reset" name= "button">Limpiar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <br>
+
+    <!-- Copyright  -->
+    <footer>
+      <p class="centrado"> © 2021. ComunidadIT | Todos los derechos reservados | Diseñado por <a href="#" rel="nofollow"><b>ElenaSH</b></a></p>
+    </footer>
+
+  </body>
+</html>
